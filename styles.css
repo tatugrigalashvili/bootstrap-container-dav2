@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111827;
+    overflow-x: hidden;
+}
+.icon{
+    width: 64px;
+    height: 64px;
+    margin-top: 31px;
+    margin-left: 170px;
+}
+.abc{
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+}
+
+.div{
+    width: 125px;
+    height: 28px;
+    background-color: #374151;
+    border-radius: 12px;
+    color: #D1D5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nice{
+    color: #D1D5DB;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+    font-size: 20px;
+}
+.container-fluid{
+    margin-top: 33px;
+    padding: 0;
+}
+.row{
+    column-gap: 72px;
+    margin-left: 2px;
+   
+}
+.card{
+    background-color: #1F2937;
+    width: 450px;
+    height: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 25px 25px 0px #00000026;
+    padding: 0;
+
+}
+.text{
+    font-size: 16px;
+    color: #D1D5DB;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F9FAFB;
+    margin: 0;
+    margin-top: 10px;
+    justify-content: center;
+}
+.small{
+    font-size: 14px;
+    color: #D1D5DB;
+    display: flex;
+    justify-content: center;
+}
+.me{
+    width: 105px;
+    height: 28px;
+    background-color: #374151;
+    border-radius: 12px;
+    color: #D1D5DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 181px;
+}
+.aboutme{
+    color: #D1D5DB;
+    margin-left: 200px;
+}
+.container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 55px;
+}
+.abcd{
+    display: flex;
+    justify-content: center;
+}
+.slide2 p, h2, ul{
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .container{
+        margin: 0;
+    }
+    .img{
+        padding: 0;
+    }
+    .aboutme{
+        margin: 0;
+        position: absolute;
+        top: 1850px;
+    }
+}
