@@ -118,4 +118,7 @@ body{
         position: absolute;
         top: 1850px;
     }
+    .card{
+        width: 100%;
+    }
 }
